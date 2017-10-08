@@ -1,0 +1,140 @@
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+* a{
+	text-decoration: none;
+}
+
+body{
+	
+	height: 100%;
+	background: rgb(41,189,224);
+}
+
+#wrapper{
+	height: 100%;
+	width: 100%;
+	background: rgb(41,189,224);
+	
+	
+}
+
+#coin{
+	width: 200px;
+	height: 45px;
+	line-height: 45px;
+	text-align:center;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: white;
+	margin:0 auto;
+}
+
+#header{
+	height: 45px;
+	border-bottom: 1px solid white;
+}
+
+#home{
+	
+	position: absolute;
+	left: 0px;
+	top:5px;
+}
+
+#attention{
+	
+	position: absolute;
+	right: 0px;
+	top:5px;
+}
+
+#cup{
+	
+	margin-top: 40px;
+	
+}
+
+#middle1{
+	text-align: center;
+}
+
+#txt{
+	text-align:left;
+	margin-top: 40px;
+}
+
+p{
+	margin-left: 5%;
+	color: white;
+	margin-top: 15px;
+}
+
+#middle2{
+	margin-top: 10px;
+	overflow: scroll;
+	height: 180px;
+	
+}
+
+.card{
+	background: white;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	height: 80px;
+	margin-bottom: 2px;
+}
+
+#middle2 p{
+	margin-left: 5%;
+	color: #757575;
+	margin-top: 3px;
+	margin-bottom: 4px;
+
+}
+
+
+
+#again{
+	border-radius: 8px;
+	background: rgb(248,190,59);
+	color: white;
+	font-size: 23px;
+	width:150px;
+	margin: auto;
+	margin-left: 5%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+    margin-bottom: 20px;
+}
+
+::-webkit-scrollbar{width:0px;}
+
+@media screen and (min-width:992px){
+    	body{
+       		width: 360px;
+	    	height: 640px;
+	    	margin: auto;
+	    	background: white;
+    	}
+    	
+    	#wrapper{
+			width: 360px;
+			height: 640px;
+			position: absolute;
+			
+	}
+
+		#footer{
+			margin-top: 20%;
+		}
+	}
+	

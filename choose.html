@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>法官台本</title>
+	<link rel="stylesheet" type="text/css" href="choose.css">
+	<script type="text/javascript" src="jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="choose.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+<body onload="start()">
+
+	
+	
+	<div id="container">
+		
+		<div id="dark"></div>
+		<div id="header">
+			<a href="#"><div id="backTo" ><img src="backcoin.png"></div></a>
+			<div id="coin"><span>法官台本</span></div>
+			<a href="#"><div id="endTo" ><img src="endcoin.png"></div></a>
+		</div>
+		
+		<div id="middle">
+			<div class="day">第一天<div id="tri"><img src="arr.png"></div></div>
+			
+			<div id="order">
+				<div id="rect">
+				
+				<div id="fake"></div>
+					
+					<div class="tag" id="tag1">
+						
+						<div id="moon"><img src="moon.png"></div>
+						<div class="group" id="tOne">
+							<div class="blue_arr"><img class="jiantou" src="bluearr.png"></div>
+							<a href="#"><div class="blue_tag">杀手杀人</div></a>
+						</div>
+					</div>
+					<div class="tag">
+						<div id="sun"><img src="sun.png"></div>
+						<div class="group" id="tTwo">
+							<div class="blue_arr"><img class="jiantou" src="bluearr.png"></div>
+							<a href="#"><div class="blue_tag">亡灵发表遗言</div></a>
+						</div>
+					</div>
+					<div class="tag">
+						<div class="group" id="tThree">
+							<div class="blue_arr"><img class="jiantou" src="bluearr.png"></div>
+							<a href="#"><div class="blue_tag">玩家依次发言</div></a>
+						</div>
+					</div>
+					<div class="tag">
+						<div class="group" id="tFour">
+							<div class="blue_arr"><img class="jiantou" src="bluearr.png"></div>
+							<a href="#"><div class="blue_tag">全民投票</div></a>
+						</div>
+					</div>
+					
+			</div>
+			<div id="tip">
+				
+					<p>请死者亮明身份并发表遗言</p>
+						<div id="press">
+							<a href="#">
+								<div id="canc" onclick="dispear()">取消</div>
+							</a>
+							<a href="#">
+								<div id="sure" onclick="dispear()">确认</div>
+							</a>
+						</div>
+					</div>
+			</div>	
+		</div>
+		<div id="footer">
+			
+			<a href="lengqidong.html"><div id="foot_l">结束游戏</div></a>
+			<a href="judge.html"><div id="foot_r">法官日志</div></a>
+		</div>
+	</div>
+
+</body>
+</html>

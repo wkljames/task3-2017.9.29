@@ -1,0 +1,283 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+* a {
+	text-decoration: none;
+}
+
+body {
+	height: 100%;
+	background: rgb(243, 243, 243);
+}
+
+#container {
+	height: 100%;
+	width: 100%;
+	background: rgb(243, 243, 243);
+}
+
+#header {
+	height: 45px;
+	background: rgb(71, 196, 229);
+}
+
+#backTo {
+	position: absolute;
+	left: 0px;
+	top: 5px;
+}
+
+#endTo {
+	position: absolute;
+	right: 0px;
+	top: 5px;
+}
+
+#coin {
+	width: 200px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: white;
+	margin: 0 auto;
+}
+
+.day {
+	width: 95%;
+	height: 45px;
+	margin: 8px auto 0px auto;
+	color: rgb(115, 203, 222);
+	line-height: 45px;
+	font-weight: bold;
+	text-align: center;
+	background: white;
+	font-family: "Georgia";
+	font-size: 18px;
+}
+
+.day2 {
+	width: 95%;
+	height: 45px;
+	margin: 8px auto 0px auto;
+	color: rgb(115, 203, 222);
+	line-height: 45px;
+	font-weight: bold;
+	text-align: center;
+	background: white;
+	font-family: "Georgia";
+	font-size: 18px;
+}
+
+#footer {
+	margin-top: 100px;
+	margin-bottom: 0px;
+	height: 60px;
+	width: 100%;
+	background: rgb(139, 217, 243);
+}
+
+#foot_l {
+	width: 40%;
+	height: 40px;
+	color: white;
+	background: rgb(248, 190, 59);
+	font-family: "Georgia";
+	float: left;
+	margin: 10px 5% 10px 5%;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+#foot_r {
+	width: 40%;
+	height: 40px;
+	color: white;
+	background: rgb(248, 190, 59);
+	font-family: "Georgia";
+	float: left;
+	margin: 10px 5% 10px 5%;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+#tri {
+	text-align: center;
+	position: relative;
+	top: -16px;
+}
+
+#fake {
+	border-left: 4px solid darkgray;
+	
+	height: 200px;
+	position: absolute;
+	left: 30px;
+	z-index: 1;
+	opacity: 0.1;
+}
+
+#middle {
+	margin-bottom: auto;
+}
+
+#order {
+	background: white;
+	height: 270px;
+	width: 95%;
+	margin: 10px auto 0px auto;
+	overflow: hidden;
+}
+
+#rect {
+	margin: auto;
+	width: auto;
+	margin-top: 20px;
+	margin: auto;
+	padding-left: 60px;
+}
+
+.blue_arr {
+	float: left;
+	margin-left: -21px;
+}
+
+.blue_tag {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 92%;
+	height: 40px;
+	background: rgb(37, 167, 198);
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+#tag {
+	z-index: 10;
+}
+
+#moon {
+	float: left;
+	margin-top: 3px;
+	margin-left: -55px;
+	z-index: 11;
+}
+
+#sun {
+	float: left;
+	margin-top: 3px;
+	margin-left: -55px;
+	z-index: -1;
+}
+
+#tip {
+	width: 260px;
+	height: 180px;
+	border: 1px solid #E2E2E2;
+	position: relative;
+	top: -80%;
+	margin: auto;
+	border-radius: 8px;
+	box-shadow: 2px 2px 1px #272727;
+	opacity: 0;
+	z-index: -11;
+	background: white;
+}
+
+#tip p {
+	position: absolute;
+	top: 25%;
+	font-size: 20px;
+	font-family: "Microsoft YaHei";
+	color: rgb(40, 83, 119);
+	width: 180px;
+	text-align: left;
+	margin-left: 35px;
+	font-weight: bold;
+}
+
+#dark {
+	width: 100%;
+	height: 640px;
+	position: fixed;
+	background: black;
+	opacity: 0;
+	z-index: -3;
+}
+
+#press {
+	margin-top: 85px;
+	height: 42px;
+}
+
+#canc {
+	float: left;
+	height: 40px;
+	margin-top: 45px;
+	width: 128px;
+	border-top: 1px solid rgb(235, 242, 252);
+	border-right: 1px solid rgb(235, 242, 252);
+	color: rgb(135, 157, 177);
+	font-family: "Microsoft YaHei";
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+#sure {
+	float: left;
+	height: 40px;
+	margin-top: 45px;
+	width: 128px;
+	border-top: 1px solid rgb(235, 242, 252);
+	color: rgb(135, 157, 177);
+	font-family: "Microsoft YaHei";
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+}
+
+@media screen and (min-width:992px) {
+	body {
+		width: 360px;
+		height: 640px;
+		margin: auto;
+		background: white;
+	}
+	#container {
+		height: 640px;
+		width: 360px;
+		background: rgb(243, 243, 243);
+		position: absolute;
+		top: 0px;
+		bottom: 0px;
+	}
+	#dark {
+		height: 640px;
+		width: 360px;
+	}
+	#footer {
+		position: absolute;
+		margin-top: 10%;
+	}
+	
+    #order{
+    	height: 240px;
+    }
+}
